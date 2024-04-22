@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container div {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.container :nth-child(1) {
+    background-color: rgb(225, 20, 129);
+}
+
+.container :nth-child(2) {
+    background-color: fuchsia;
+}
+
+.container :nth-child(3) {
+    background-color: coral;
+}
+
+.container :nth-child(4) {
+    background-color: gold;
+}
+
+.container :nth-child(5) {
+    background-color: green;
+}
+
+.container :nth-child(6) {
+    background-color: rgb(93, 178, 181);
+}
+
+.container :nth-child(7) {
+    background-color: rgb(50, 190, 50);
+}
+
+.container :nth-child(8) {
+    background-color: rgb(57, 165, 106);
+}
+
+.container :nth-child(9) {
+    background-color: aqua;
+}
+
+.container :nth-child(10) {
+    background-color: aquamarine;
+}
+
+.container :nth-child(11) {
+    background-color: rgb(26, 21, 67);
+}
+
+.container :nth-child(12) {
+    background-color: crimson;
+}
+
+.container {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 500px;
+    display: grid;
+    gap: 2px;
+    text-align: center;
+    grid-template-areas:
+        'bir bir  iki iki iki üç üç üç üç dörd dörd'
+        'beş beş  iki iki iki üç üç üç üç alti alti'
+        'yeddi  yeddi sekkiz doqquz doqquz üç üç üç üç on on'
+        'onbir onbir onbir onbir onbir üç üç üç üç oniki oniki';
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+   
+}
